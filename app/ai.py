@@ -12,7 +12,6 @@ from app.db.models import Conversation, Message, MessageType
 from app.db.repo import create_message, get_messages
 from app.db.session import Session
 
-
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 # system prompts
